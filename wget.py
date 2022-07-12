@@ -14,4 +14,4 @@ with Progress() as progress:
             if chunk:
                 file.write(chunk)
             progress.update(download, advance=1)
-        file.close()
+     
